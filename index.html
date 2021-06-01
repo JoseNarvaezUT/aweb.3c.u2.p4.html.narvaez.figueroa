@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica HTML 4</title>
+    <style>
+        body{
+            background-color: #F0F0F0;
+        }
+        header {
+            text-align: center;
+        } 
+        .menu{
+            width: 20%;
+            float: left;
+            background-color: #E0EEB9;
+        }
+
+        .menu ul {
+            list-style: none;
+        }
+        .menu ul li {
+            padding: 5px;
+        }
+        .menu ul a:link,
+        .menu ul a:visited,
+        .menu ul a:active{
+            text-decoration: none;
+            color: #000;
+        }
+
+        .menu ul li:hover{
+            background-color: #C8E386;
+            font-weight: bold;
+        }
+        #content{
+            width: 80%;
+            float: left;
+        }
+        #content article{
+            margin: 10px;
+        }
+
+        article h1{
+            color: #75AD24;
+            border-bottom: #000 solid 1px;
+        }
+
+    </style>
+</head>
+<body >
+    <main>
+        <header>
+            <h1>Práctica HMTL5</h1>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#" >Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Tipo agua</a>
+                </li>
+                <li>
+                    <a href="#">Tipo planta</a>
+                </li>
+                <li>
+                    <a href="#">Tipo fuego</a>
+                </li>
+            </ul>
+        </nav>
+        <section id="content">
+            <article>
+                <h1>Artículo 1</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis obcaecati nemo sit voluptate cumque, commodi minus similique quod iure temporibus veniam asperiores nam laboriosam quam. Mollitia fugit id natus totam.</p>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                </ul>
+            </article>
+            <article>
+                <h1>Artículo 2</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis obcaecati nemo sit voluptate cumque, commodi minus similique quod iure temporibus veniam asperiores nam laboriosam quam. Mollitia fugit id natus totam.</p>
+            </article>
+        </section>
+        <footer>Pie de página</footer>
+    </main>
+</body>
+
+</html>
